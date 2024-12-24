@@ -17,8 +17,22 @@
 		"keepPlayFileKeywords": "",
                 "recommend": "1"
 	},
-	
-	
+
+	{
+		"key": "mogg",
+		"name": "🤹‍♂️木偶┃UC盘",
+		"type": 5,
+		"searchable": 1,
+		"filterClass": "",
+		"firstClass": "",
+		"filterPlay": "",
+		"firstPlay": "",
+		"ext": "./newjs/mogg.js",
+		"flagable": 0,
+		"filterPlayFileKeywords": "",
+		"keepPlayFileKeywords": "",
+		"selectedPlayer": "0"
+	},
 	{
 		"key": "wogg",
 		"name": "🧸玩偶┃网盘",
@@ -34,23 +48,7 @@
 		"keepPlayFileKeywords": "",
 		"selectedPlayer": "0"
 	},
-	
-        {
-                "key": "网盘推送",
-                "name": "💗网盘┃推送",
-                "type": 5,
-                "searchable": 0,
-                "filterClass": "",
-                "firstClass": "",
-                "filterPlay": "",
-                "firstPlay": "",
-                "ext": "./newjs/网盘推送.js",
-                "flagable": 0,
-                "filterPlayFileKeywords": "",
-                "keepPlayFileKeywords": "",
-                "selectedPlayer": "0"
-        },
-        {
+	{
                 "key": "shandian",
                 "name": "⚡️闪电┃UC盘",
                 "type": 5,
@@ -157,7 +155,7 @@
 	},
 	{
 		"key": "nanf",
-		"name": "🀁南风短剧┃夸克",
+		"name": "🀁南风┃夸克",
 		"type": 5,
 		"searchable": 1,
 		"filterClass": "",
@@ -185,6 +183,25 @@
 		"keepPlayFileKeywords": "",
 		"selectedPlayer": "0"
 	},
+
+	
+
+	{
+                "key": "网盘推送",
+                "name": "💗网盘┃推送",
+                "type": 5,
+                "searchable": 0,
+                "filterClass": "",
+                "firstClass": "",
+                "filterPlay": "",
+                "firstPlay": "",
+                "ext": "./newjs/网盘推送.js",
+                "flagable": 0,
+                "filterPlayFileKeywords": "",
+                "keepPlayFileKeywords": "",
+                "selectedPlayer": "0"
+        },
+		
 	{
 		"key": "bilimv",
 		"name": "🎙MV┃哔哩",
@@ -200,21 +217,7 @@
 		"keepPlayFileKeywords": "",
 		"selectedPlayer": "0"
 	},
-	{
-		"key": "jcyjcy",
-		"name": "🍰囧次元┃直链",
-		"type": 5,
-		"searchable": 1,
-		"filterClass": "",
-		"firstClass": "",
-		"filterPlay": "",
-		"firstPlay": "",
-		"ext": "./newjs/jcy.js",
-		"flagable": 0,
-		"filterPlayFileKeywords": "",
-		"keepPlayFileKeywords": "",
-                "selectedPlayer":"0"
-	},
+	
 	{
 		"key": "cfkj86",
 		"name": "🥇金牌┃直链",
@@ -230,21 +233,7 @@
 		"keepPlayFileKeywords": "",
                 "selectedPlayer":"0"
 	},
-	{
-		"key": "libvio",
-		"name": "🌏libvio|不卡",
-		"type": 5,
-		"searchable": 1,
-		"filterClass": "",
-		"firstClass": "",
-		"filterPlay": "",
-		"firstPlay": "HD5播放,BD播放",
-		"ext": "./newjs/libvio.js",
-		"flagable": 0,
-		"filterPlayFileKeywords": "",
-		"keepPlayFileKeywords": "",
-		"selectedPlayer": "0"
-	},
+	
 	{
 		"key": "kuyun",
 		"name": "☁️酷云┃直链",
@@ -319,6 +308,36 @@
 		"filterPlayFileKeywords": "",
 		"keepPlayFileKeywords": "",
 		"selectedPlayer": "0"
+	},
+	{
+		"key": "libvio",
+		"name": "🌏libvio|不卡",
+		"type": 5,
+		"searchable": 1,
+		"filterClass": "",
+		"firstClass": "",
+		"filterPlay": "",
+		"firstPlay": "HD5播放,BD播放",
+		"ext": "./newjs/libvio.js",
+		"flagable": 0,
+		"filterPlayFileKeywords": "",
+		"keepPlayFileKeywords": "",
+		"selectedPlayer": "0"
+	},
+	{
+		"key": "jcyjcy",
+		"name": "🍰囧次元┃直链",
+		"type": 5,
+		"searchable": 1,
+		"filterClass": "",
+		"firstClass": "",
+		"filterPlay": "",
+		"firstPlay": "",
+		"ext": "./newjs/jcy.js",
+		"flagable": 0,
+		"filterPlayFileKeywords": "",
+		"keepPlayFileKeywords": "",
+                "selectedPlayer":"0"
 	},
 	{
 		"key": "subaibai",
