@@ -15,7 +15,7 @@
 		"flagable": 0,
 		"filterPlayFileKeywords": "",
 		"keepPlayFileKeywords": "",
-        "recommend": "1"
+                "recommend": "1"
 	},
 	
 	
@@ -35,56 +35,52 @@
 		"selectedPlayer": "0"
 	},
 	
-{
-    "key": "网盘推送",
-    "name": "💗网盘┃推送",
-    "type": 5,
-    "searchable": 0,
-    "filterClass": "",
-    "firstClass": "",
-    "filterPlay": "",
-    "firstPlay": "",
-    "ext": "网盘推送.js",
-    "flagable": 0,
-    "filterPlayFileKeywords": "",
-    "keepPlayFileKeywords": "",
-    "selectedPlayer": "0"
-  },
-  
-  {
-    "key": "shandian",
-    "name": "⚡️闪电┃UC盘",
-    "type": 5,
-    "searchable": 1,
-    "filterClass": "",
-    "firstClass": "",
-    "filterPlay": "",
-    "firstPlay": "",
-    "ext": "shandian.js",
-    "flagable": 0,
-    "filterPlayFileKeywords": "",
-    "keepPlayFileKeywords": "",
-    "selectedPlayer": "0"
-  },
-  {
-    "key": "omii",
-    "name": "🌕奥秘┃网盘",
-    "type": 5,
-    "searchable": 1,
-    "filterClass": "",
-    "firstClass": "",
-    "filterPlay": "",
-    "firstPlay": "",
-    "ext": "omii.js",
-    "flagable": 0,
-    "filterPlayFileKeywords": "",
-    "keepPlayFileKeywords": "",
-    "selectedPlayer": "0"
-  },
-  
-
-	
-	{
+        {
+                "key": "网盘推送",
+                "name": "💗网盘┃推送",
+                "type": 5,
+                "searchable": 0,
+                "filterClass": "",
+                "firstClass": "",
+                "filterPlay": "",
+                "firstPlay": "",
+                "ext": "./newjs/网盘推送.js",
+                "flagable": 0,
+                "filterPlayFileKeywords": "",
+                "keepPlayFileKeywords": "",
+                "selectedPlayer": "0"
+        },
+        {
+                "key": "shandian",
+                "name": "⚡️闪电┃UC盘",
+                "type": 5,
+                "searchable": 1,
+                "filterClass": "",
+                "firstClass": "",
+                "filterPlay": "",
+                "firstPlay": "",
+                "ext": "./newjs/shandian.js",
+                "flagable": 0,
+                "filterPlayFileKeywords": "",
+                "keepPlayFileKeywords": "",
+                "selectedPlayer": "0"
+        },
+        {
+                "key": "omii",
+                "name": "🌕奥秘┃网盘",
+                "type": 5,
+                "searchable": 1,
+                "filterClass": "",
+                "firstClass": "",
+                "filterPlay": "",
+                "firstPlay": "",
+                "ext": "./newjs/omii.js",
+                "flagable": 0,
+                "filterPlayFileKeywords": "",
+                "keepPlayFileKeywords": "",
+                "selectedPlayer": "0"
+        },
+        {
 		"key": "labi",
 		"name": "🖍蜡笔┃网盘",
 		"type": 5,
@@ -217,7 +213,7 @@
 		"flagable": 0,
 		"filterPlayFileKeywords": "",
 		"keepPlayFileKeywords": "",
-        "selectedPlayer":"0"
+                "selectedPlayer":"0"
 	},
 	{
 		"key": "cfkj86",
@@ -232,7 +228,7 @@
 		"flagable": 0,
 		"filterPlayFileKeywords": "",
 		"keepPlayFileKeywords": "",
-        "selectedPlayer":"0"
+                "selectedPlayer":"0"
 	},
 	{
 		"key": "libvio",
@@ -262,7 +258,7 @@
 		"flagable": 0,
 		"filterPlayFileKeywords": "",
 		"keepPlayFileKeywords": "",
-        "selectedPlayer":"0"
+                "selectedPlayer":"0"
 	},
 	{
 		"key": "zhuifan",
@@ -277,7 +273,7 @@
 		"flagable": 0,
 		"filterPlayFileKeywords": "",
 		"keepPlayFileKeywords": "",
-        "selectedPlayer":"0"
+                "selectedPlayer":"0"
 	},
 	{
 		"key": "xiaopingguo",
@@ -292,7 +288,7 @@
 		"flagable": 0,
 		"filterPlayFileKeywords": "",
 		"keepPlayFileKeywords": "",
-        "selectedPlayer":"1"
+                "selectedPlayer":"1"
 	},
 	{
 		"key": "gzys",
@@ -339,26 +335,21 @@
 		"keepPlayFileKeywords": "",
 		"selectedPlayer": "0"
 	},
-	
-{
-    "key": "wwgz",
-    "name": "🐶旺旺┃嗅探",
-    "type": 6,
-    "searchable": 1,
-    "filterClass": "",
-    "firstClass": "",
-    "filterPlay": "",
-    "firstPlay": "",
-    "ext": "./soup/wwgz_soup.json",
-    "flagable": 0,
-    "filterPlayFileKeywords": "",
-    "keepPlayFileKeywords": ""
-  },
-
-	
-	
-	
 	{
+                "key": "wwgz",
+                "name": "🐶旺旺┃嗅探",
+                "type": 6,
+                "searchable": 1,
+                "filterClass": "",
+                "firstClass": "",
+                "filterPlay": "",
+                "firstPlay": "",
+                "ext": "./soup/wwgz_soup.json",
+                "flagable": 0,
+                "filterPlayFileKeywords": "",
+                "keepPlayFileKeywords": ""
+        },
+        {
 		"key": "zhenbuka",
 		"name": "🚀真不卡┃嗅探",
 		"type": 6,
@@ -570,25 +561,22 @@
 		"filterPlayFileKeywords": "",
 		"keepPlayFileKeywords": ""
 	},
-	
-{
-  "key": "taopian",
-  "name": "淘片┃资源",
-  "type": 1,
-  "searchable": 1,
-  "filterClass": "",
-  "firstClass": "电视剧/国产剧,电视剧/香港剧,电视剧/海外剧,动漫/国产动漫,动漫/日本动漫,综艺/大陆综艺",
-  "filterPlay": "",
-  "firstPlay": "",
-  "ext": "https://taopianapi.com/cjapi/mc/vod/json/m3u8.html",
-  "flagable": 0,
-  "filterPlayFileKeywords": "",
-  "keepPlayFileKeywords": "",
-  "selectedPlayer": "0"
- },
-
-	
 	{
+                "key": "taopian",
+                "name": "💾淘片┃资源",
+                "type": 1,
+                "searchable": 1,
+                "filterClass": "",
+                "firstClass": "电视剧/国产剧,电视剧/香港剧,电视剧/海外剧,动漫/国产动漫,动漫/日本动漫,综艺/大陆综艺",
+                "filterPlay": "",
+                "firstPlay": "",
+                "ext": "https://taopianapi.com/cjapi/mc/vod/json/m3u8.html",
+                "flagable": 0,
+                "filterPlayFileKeywords": "",
+                "keepPlayFileKeywords": "",
+                "selectedPlayer": "0"
+        },
+        {
 		"key": "ruyizy",
 		"name": "😄如意┃资源",
 		"type": 0,
