@@ -18,21 +18,7 @@
                 "recommend": "1"
 	},
 
-	{
-		"key": "vq",
-		"name": "🐹腾云驾雾┃官网",
-		"type": 5,
-		"searchable": 1,
-		"filterClass": "",
-		"firstClass": "",
-		"filterPlay": "",
-		"firstPlay": "腾云驾雾",
-		"ext": "./newjs/vq.js",
-		"flagable": 0,
-		"filterPlayFileKeywords": "",
-		"keepPlayFileKeywords": "",
-		"selectedPlayer": "0"
-	},
+	
 
 	{
 		"key": "mogg",
@@ -200,7 +186,21 @@
 		"selectedPlayer": "0"
 	},
 
-	
+	{
+		"key": "vq",
+		"name": "🐹腾云驾雾┃官网",
+		"type": 5,
+		"searchable": 1,
+		"filterClass": "",
+		"firstClass": "",
+		"filterPlay": "",
+		"firstPlay": "腾云驾雾",
+		"ext": "./newjs/vq.js",
+		"flagable": 0,
+		"filterPlayFileKeywords": "",
+		"keepPlayFileKeywords": "",
+		"selectedPlayer": "0"
+	},
 
 	{
                 "key": "网盘推送",
