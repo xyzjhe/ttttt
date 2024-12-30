@@ -18,7 +18,35 @@
                 "recommend": "1"
 	},
 
-	
+	{
+		"key": "subaibai",
+		"name": "🌥素白白┃直链",
+		"type": 5,
+		"searchable": 1,
+		"filterClass": "",
+		"firstClass": "国产剧,番剧",
+		"filterPlay": "",
+		"firstPlay": "",
+		"ext": "./newjs/subaibai.js",
+		"flagable": 0,
+		"filterPlayFileKeywords": "",
+		"keepPlayFileKeywords": "",
+		"selectedPlayer": "0"
+	},
+	{
+                "key": "wwgz",
+                "name": "🐶旺旺┃嗅探",
+                "type": 6,
+                "searchable": 1,
+                "filterClass": "",
+                "firstClass": "",
+                "filterPlay": "",
+                "firstPlay": "",
+                "ext": "./soup/wwgz_soup.json",
+                "flagable": 0,
+                "filterPlayFileKeywords": "",
+                "keepPlayFileKeywords": ""
+        },
 
 	{
 		"key": "mogg",
