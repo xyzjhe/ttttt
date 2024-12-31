@@ -49,21 +49,7 @@
                 "filterPlayFileKeywords": "",
                 "keepPlayFileKeywords": ""
         },
-	{
-	        "key": "huban",
-	        "name": "🐅小虎斑┃影视",
-	        "type": 5,
-	        "searchable": 1,
-	        "filterClass": "",
-	        "firstClass": "",
-	        "filterPlay": "",
-	        "firstPlay": "",
-	        "ext": "./newjs/huban.js",
-	        "flagable": 0,
-	        "filterPlayFileKeywords": "",
-	        "keepPlayFileKeywords": "",
-	        "selectedPlayer": "0"
-	},
+	
 
 	{
   		"key": "dandanplay",
@@ -97,21 +83,6 @@
 		"selectedPlayer": "0"
 	},
 	{
-		"key": "wogg",
-		"name": "🧸玩偶┃网盘",
-		"type": 5,
-		"searchable": 1,
-		"filterClass": "",
-		"firstClass": "",
-		"filterPlay": "",
-		"firstPlay": "夸克网盘,夸克网盘2",
-		"ext": "./newjs/wogg.js",
-		"flagable": 0,
-		"filterPlayFileKeywords": "",
-		"keepPlayFileKeywords": "",
-		"selectedPlayer": "0"
-	},
-	{
                 "key": "shandian",
                 "name": "⚡️闪电┃UC盘",
                 "type": 5,
@@ -126,6 +97,52 @@
                 "keepPlayFileKeywords": "",
                 "selectedPlayer": "0"
         },
+	{
+		"key": "xiaomi",
+		"name": "🍚小米┃UC盘",
+		"type": 5,
+		"searchable": 1,
+		"filterClass": "",
+		"firstClass": "",
+		"filterPlay": "",
+		"firstPlay": "",
+		"ext": "./newjs/xiaomi.js",
+		"flagable": 0,
+		"filterPlayFileKeywords": "",
+		"keepPlayFileKeywords": "",
+		"selectedPlayer": "0"
+	},
+	{
+	        "key": "huban",
+	        "name": "🐅小虎斑┃网盘",
+	        "type": 5,
+	        "searchable": 1,
+	        "filterClass": "",
+	        "firstClass": "",
+	        "filterPlay": "",
+	        "firstPlay": "",
+	        "ext": "./newjs/huban.js",
+	        "flagable": 0,
+	        "filterPlayFileKeywords": "",
+	        "keepPlayFileKeywords": "",
+	        "selectedPlayer": "0"
+	},
+	{
+		"key": "wogg",
+		"name": "🧸玩偶┃网盘",
+		"type": 5,
+		"searchable": 1,
+		"filterClass": "",
+		"firstClass": "",
+		"filterPlay": "",
+		"firstPlay": "夸克网盘,夸克网盘2",
+		"ext": "./newjs/wogg.js",
+		"flagable": 0,
+		"filterPlayFileKeywords": "",
+		"keepPlayFileKeywords": "",
+		"selectedPlayer": "0"
+	},
+	
         {
                 "key": "omii",
                 "name": "🌕奥秘┃网盘",
@@ -186,21 +203,7 @@
 		"keepPlayFileKeywords": "",
 		"selectedPlayer": "0"
 	},
-	{
-		"key": "xiaomi",
-		"name": "🍚小米┃UC盘",
-		"type": 5,
-		"searchable": 1,
-		"filterClass": "",
-		"firstClass": "",
-		"filterPlay": "",
-		"firstPlay": "",
-		"ext": "./newjs/xiaomi.js",
-		"flagable": 0,
-		"filterPlayFileKeywords": "",
-		"keepPlayFileKeywords": "",
-		"selectedPlayer": "0"
-	},
+	
 	{
 		"key": "ouge",
 		"name": "🏰欧歌┃网盘",
