@@ -659,6 +659,37 @@
 		"keepPlayFileKeywords": "",
 		"selectedPlayer": "0"
 	},
+
+	{
+		"key": "xiaomaomi",
+		"name": "😺小猫咪┃资源",
+		"type": 1,
+		"searchable": 1,
+		"filterClass": "短剧,其他,成人,小破站,资讯,影视资讯,明星资讯,演员,内地明星,港台明星,欧美明星,日韩明星,QQ群9342027",
+		"firstClass": "",
+		"filterPlay": "",
+		"firstPlay": "",
+		"ext": "http://zy.xiaomaomi.cc/api.php/provide/vod/",
+		"flagable": 1,
+		"filterPlayFileKeywords": "",
+		"keepPlayFileKeywords": ""
+	},
+		{
+		"key": "1080zyku",
+		"name": "1️⃣1080┃资源",
+		"type": 1,
+		"searchable": 1,
+		"filterClass": "福利,记录片,电影,连续剧,综艺,动漫,预告片,体育,汽车,音乐,搞笑,影视,倫理片",
+		"firstClass": "国产剧,国产动漫",
+		"filterPlay": "",
+		"firstPlay": "",
+		"ext": "https://api.1080zyku.com/inc/api_mac10.php",
+		"flagable": 0,
+		"filterPlayFileKeywords": "",
+		"keepPlayFileKeywords": ""
+	},
+	
+		
 	{
 		"key": "yunpan",
 		"name": "夸克云盘┃仅搜索",
