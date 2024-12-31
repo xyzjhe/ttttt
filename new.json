@@ -492,6 +492,20 @@
 		"keepPlayFileKeywords": ""
 	},
 	{
+		"key": "shdy2",
+		"name": "💥骚火┃嗅探",
+		"type": 4,
+		"searchable": 0,
+		"filterClass": "",
+		"firstClass": "",
+		"filterPlay": "",
+		"firstPlay": "",
+		"ext": "./xbiubiu/shdy2_xbiubiu.json",
+		"flagable": 0,
+		"filterPlayFileKeywords": "",
+		"keepPlayFileKeywords": ""
+	},
+	{
 		"key": "ysgc",
 		"name": "🏭影视工厂┃嗅探",
 		"type": 6,
@@ -519,20 +533,7 @@
 		"filterPlayFileKeywords": "",
 		"keepPlayFileKeywords": ""
 	},
-	{
-		"key": "shdy2",
-		"name": "💥骚火┃嗅探",
-		"type": 4,
-		"searchable": 0,
-		"filterClass": "",
-		"firstClass": "",
-		"filterPlay": "",
-		"firstPlay": "",
-		"ext": "./xbiubiu/shdy2_xbiubiu.json",
-		"flagable": 0,
-		"filterPlayFileKeywords": "",
-		"keepPlayFileKeywords": ""
-	},
+	
 	{
 		"key": "tvby02",
 		"name": "☁tvb云播┃嗅探",
@@ -543,6 +544,20 @@
 		"filterPlay": "",
 		"firstPlay": "",
 		"ext": "./xbiu/hktv03_XBiu.json",
+		"flagable": 0,
+		"filterPlayFileKeywords": "",
+		"keepPlayFileKeywords": ""
+	},
+	{
+		"key": "dmand5",
+		"name": "🏝动漫岛┃嗅探",
+		"type": 6,
+		"searchable": 1,
+		"filterClass": "",
+		"firstClass": "",
+		"filterPlay": "",
+		"firstPlay": "",
+		"ext": "./soup/dmand_soup.json",
 		"flagable": 0,
 		"filterPlayFileKeywords": "",
 		"keepPlayFileKeywords": ""
@@ -590,20 +605,7 @@
 		"filterPlayFileKeywords": "",
 		"keepPlayFileKeywords": ""
 	},
-	{
-		"key": "dmand5",
-		"name": "🏝动漫岛┃嗅探",
-		"type": 6,
-		"searchable": 1,
-		"filterClass": "",
-		"firstClass": "",
-		"filterPlay": "",
-		"firstPlay": "",
-		"ext": "./soup/dmand_soup.json",
-		"flagable": 0,
-		"filterPlayFileKeywords": "",
-		"keepPlayFileKeywords": ""
-	},
+	
 	{
 		"key": "360ys",
 		"name": "3️⃣360影视┃嗅探",
@@ -662,7 +664,20 @@
 		"keepPlayFileKeywords": "",
 		"selectedPlayer": "0"
 	},
-
+        {
+		"key": "1080zyku",
+		"name": "1️⃣1080┃资源",
+		"type": 1,
+		"searchable": 1,
+		"filterClass": "福利,记录片,电影,连续剧,综艺,动漫,预告片,体育,汽车,音乐,搞笑,影视,倫理片",
+		"firstClass": "国产剧,国产动漫",
+		"filterPlay": "",
+		"firstPlay": "",
+		"ext": "https://api.1080zyku.com/inc/api_mac10.php",
+		"flagable": 0,
+		"filterPlayFileKeywords": "",
+		"keepPlayFileKeywords": ""
+	},
 	{
 		"key": "xiaomaomi",
 		"name": "😺小猫咪┃资源",
@@ -677,20 +692,7 @@
 		"filterPlayFileKeywords": "",
 		"keepPlayFileKeywords": ""
 	},
-		{
-		"key": "1080zyku",
-		"name": "1️⃣1080┃资源",
-		"type": 1,
-		"searchable": 1,
-		"filterClass": "福利,记录片,电影,连续剧,综艺,动漫,预告片,体育,汽车,音乐,搞笑,影视,倫理片",
-		"firstClass": "国产剧,国产动漫",
-		"filterPlay": "",
-		"firstPlay": "",
-		"ext": "https://api.1080zyku.com/inc/api_mac10.php",
-		"flagable": 0,
-		"filterPlayFileKeywords": "",
-		"keepPlayFileKeywords": ""
-	},
+	
 	
 		
 	{
