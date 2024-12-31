@@ -18,6 +18,8 @@
                 "recommend": "1"
 	},
 
+	
+
 	{
 		"key": "subaibai",
 		"name": "🌥素白白┃直链",
@@ -47,6 +49,22 @@
                 "filterPlayFileKeywords": "",
                 "keepPlayFileKeywords": ""
         },
+
+	{
+  		"key": "dandanplay",
+  		"name": "弹弹play┃弹幕",
+  		"type": 5,
+  		"searchable": 0,
+  		"filterClass": "",
+  		"firstClass": "",
+  		"filterPlay": "",
+  		"firstPlay": "",
+  		"ext": "./newjs/dandanplay.js",
+  		"flagable": 0,
+  		"filterPlayFileKeywords": "",
+  		"keepPlayFileKeywords": "",
+        	"danmu":"1"
+ 	},
 
 	{
 		"key": "mogg",
