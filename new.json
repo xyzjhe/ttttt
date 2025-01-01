@@ -68,6 +68,37 @@
  	},
 
 	{
+                "key": "zonghedanmu1",
+                "name": "☄️┃综合┃弹幕1",
+                "type": 5,
+                "searchable": 0,
+                "filterClass": "",
+                "firstClass": "",
+                "filterPlay": "",
+                "firstPlay": "",
+                "ext": "./newjs/danmu_zonghe1.js",
+                "flagable": 0,
+                "filterPlayFileKeywords": "",
+                "keepPlayFileKeywords": "",
+                "danmu":"1"
+      },
+      {
+                "key": "zonghedanmu2",
+                "name": "☄️┃综合┃弹幕2",
+                "type": 5,
+                "searchable": 0,
+                "filterClass": "",
+                "firstClass": "",
+                "filterPlay": "",
+                "firstPlay": "",
+                "ext": "./newjs/danmu_zonghe2.js",
+                "flagable": 0,
+                "filterPlayFileKeywords": "",
+                "keepPlayFileKeywords": "",
+                "danmu":"1"
+      },		
+
+	{
 		"key": "mogg",
 		"name": "🤹‍♂️木偶┃UC盘",
 		"type": 5,
@@ -605,6 +636,22 @@
 		"filterPlayFileKeywords": "",
 		"keepPlayFileKeywords": ""
 	},
+
+	{
+                "key": "tt776b",
+                "name": "🌀风车动漫┃嗅探",
+                "type": 6,
+                "searchable": 1,
+                "filterClass": "",
+                "firstClass": "",
+                "filterPlay": "",
+                "firstPlay": "",
+                "ext": "./soup/tt776b_soup.json",
+                "flagable": 0,
+                "filterPlayFileKeywords": "",
+                "keepPlayFileKeywords": "",
+                "selectedPlayer": "0"
+        },
 	
 	{
 		"key": "360ys",
