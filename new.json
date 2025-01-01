@@ -53,7 +53,7 @@
 
 	{
   		"key": "dandanplay",
-  		"name": "弹弹play┃弹幕",
+  		"name": "弹弹play┃动漫",
   		"type": 5,
   		"searchable": 0,
   		"filterClass": "",
@@ -158,6 +158,38 @@
 	        "keepPlayFileKeywords": "",
 	        "selectedPlayer": "0"
 	},
+	{
+		"key": "baipiao",
+		"name": "❈白嫖┃网盘",
+		"type": 5,
+		"searchable": 1,
+		"filterClass": "",
+		"firstClass": "",
+		"filterPlay": "",
+		"firstPlay": "",
+		"ext": "./newjs/baipiao.js",
+		"flagable": 0,
+		"filterPlayFileKeywords": "",
+		"keepPlayFileKeywords": "",
+		"selectedPlayer": "0"
+	},
+
+	{
+		"key": "texiafan",
+		"name": "🌾下饭┃网盘",
+		"type": 5,
+		"searchable": 1,
+		"filterClass": "",
+		"firstClass": "",
+		"filterPlay": "",
+		"firstPlay": "",
+		"ext": "./newjs/xiafan.js",
+		"flagable": 0,
+		"filterPlayFileKeywords": "",
+		"keepPlayFileKeywords": "",
+		"selectedPlayer": "0"
+	},
+	
 	{
 		"key": "wogg",
 		"name": "🧸玩偶┃网盘",
@@ -580,50 +612,7 @@
 		"keepPlayFileKeywords": ""
 	},
 
-        {
-		"key": "damifan",
-		"name": "🍿大米星球┃嗅探",
-		"type": 6,
-		"searchable": 1,
-		"filterClass": "",
-		"firstClass": "",
-		"filterPlay": "",
-		"firstPlay": "",
-		"ext": "https://ghproxy.cn/https://raw.githubusercontent.com/leevi0709/tBox/refs/heads/main/soup/dami_soup.json",
-		"flagable": 0,
-		"filterPlayFileKeywords": "",
-		"keepPlayFileKeywords": ""
-	},
-
-	{
-		"key": "keke1",
-		"name": "🍹可可┃嗅探",
-		"type": 6,
-		"searchable": 1,
-		"filterClass": "",
-		"firstClass": "",
-		"filterPlay": "",
-		"firstPlay": "",
-		"ext": "https://ghproxy.cn/https://raw.githubusercontent.com/leevi0709/tBox/refs/heads/main/soup/keke1_soup.json",
-		"flagable": 0,
-		"filterPlayFileKeywords": "",
-		"keepPlayFileKeywords": ""
-	},
-	{
-		"key": "pptv66",
-		"name": "🥏皮皮┃嗅探",
-		"type": 6,
-		"searchable": 1,
-		"filterClass": "",
-		"firstClass": "",
-		"filterPlay": "",
-		"firstPlay": "",
-		"ext": "https://ghproxy.cn/https://raw.githubusercontent.com/leevi0709/tBox/refs/heads/main/soup/pptv_soup.json",
-		"flagable": 0,
-		"filterPlayFileKeywords": "",
-		"keepPlayFileKeywords": ""
-	},
-	
+       
 		
 	{
 		"key": "dmand5",
