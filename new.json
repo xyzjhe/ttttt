@@ -66,21 +66,7 @@
 	        "selectedPlayer": "0"
 	},
 
-	{
-		"key": "vq",
-		"name": "🐹腾云驾雾┃官网",
-		"type": 5,
-		"searchable": 1,
-		"filterClass": "",
-		"firstClass": "",
-		"filterPlay": "",
-		"firstPlay": "腾云驾雾",
-		"ext": "./newjs/vq.js",
-		"flagable": 0,
-		"filterPlayFileKeywords": "",
-		"keepPlayFileKeywords": "",
-		"selectedPlayer": "0"
-	},
+	
 	
 
 	{
@@ -177,7 +163,7 @@
 	},
 	{
 	        "key": "huban",
-	        "name": "🐅小虎斑┃网盘",
+	        "name": "🐅虎斑┃网盘",
 	        "type": 5,
 	        "searchable": 1,
 	        "filterClass": "",
@@ -500,6 +486,22 @@
 		"keepPlayFileKeywords": "",
                 "selectedPlayer":"0"
 	},
+
+	{
+		"key": "vq",
+		"name": "🐹腾云驾雾┃官网",
+		"type": 5,
+		"searchable": 1,
+		"filterClass": "",
+		"firstClass": "",
+		"filterPlay": "",
+		"firstPlay": "腾云驾雾",
+		"ext": "./newjs/vq.js",
+		"flagable": 0,
+		"filterPlayFileKeywords": "",
+		"keepPlayFileKeywords": "",
+		"selectedPlayer": "0"
+	},
 	
         {
 		"key": "zhenbuka",
@@ -815,7 +817,7 @@
 		"firstClass": "",
 		"filterPlay": "",
 		"firstPlay": "",
-		"ext": "https://ghproxy.cn/https://raw.githubusercontent.com/Jokervvv9/tBox/refs/heads/main/newjs/yisou.js",
+		"ext": "./newjs/yisou.js",
 		"flagable": 0,
 		"filterPlayFileKeywords": "",
 		"keepPlayFileKeywords": ""
