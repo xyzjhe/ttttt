@@ -807,7 +807,20 @@
 		"keepPlayFileKeywords": ""
 	},
 	
-	
+	{
+		"key": "yingso",
+		"name": "夸克影搜┃仅搜索",
+		"type": 5,
+		"searchable": 1,
+		"filterClass": "",
+		"firstClass": "",
+		"filterPlay": "",
+		"firstPlay": "",
+		"ext": "./newjs/yingso.js",
+		"flagable": 0,
+		"filterPlayFileKeywords": "",
+		"keepPlayFileKeywords": ""
+	},
 		
 	{
 		"key": "yunpan",
