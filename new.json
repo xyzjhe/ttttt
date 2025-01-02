@@ -17,10 +17,7 @@
 		"keepPlayFileKeywords": "",
                 "recommend": "1"
 	},
-
-	
-
-	{
+        {
 		"key": "subaibai",
 		"name": "🌥素白白┃直链",
 		"type": 5,
@@ -49,8 +46,7 @@
                 "filterPlayFileKeywords": "",
                 "keepPlayFileKeywords": ""
         },
-
-	{
+        {
 	        "key": "xlys",
 	        "name": "🦸修罗┃影视",
 	        "type": 5,
@@ -65,11 +61,7 @@
 	        "keepPlayFileKeywords": "",
 	        "selectedPlayer": "0"
 	},
-
-	
-	
-
-	{
+        {
   		"key": "dandanplay",
   		"name": "弹弹play┃动漫",
   		"type": 5,
@@ -84,8 +76,7 @@
   		"keepPlayFileKeywords": "",
         	"danmu":"1"
  	},
-
-	{
+        {
                 "key": "zonghedanmu1",
                 "name": "☄️┃综合┃弹幕1",
                 "type": 5,
@@ -191,8 +182,7 @@
 		"keepPlayFileKeywords": "",
 		"selectedPlayer": "0"
 	},
-
-	{
+        {
 		"key": "texiafan",
 		"name": "🌾下饭┃网盘",
 		"type": 5,
@@ -207,7 +197,6 @@
 		"keepPlayFileKeywords": "",
 		"selectedPlayer": "0"
 	},
-	
 	{
 		"key": "wogg",
 		"name": "🧸玩偶┃网盘",
@@ -223,8 +212,7 @@
 		"keepPlayFileKeywords": "",
 		"selectedPlayer": "0"
 	},
-	
-        {
+	{
                 "key": "omii",
                 "name": "🌕奥秘┃网盘",
                 "type": 5,
@@ -284,7 +272,6 @@
 		"keepPlayFileKeywords": "",
 		"selectedPlayer": "0"
 	},
-	
 	{
 		"key": "ouge",
 		"name": "🏰欧歌┃网盘",
@@ -330,10 +317,7 @@
 		"keepPlayFileKeywords": "",
 		"selectedPlayer": "0"
 	},
-
-	
-
-	{
+        {
                 "key": "网盘推送",
                 "name": "💗网盘┃推送",
                 "type": 5,
@@ -348,8 +332,7 @@
                 "keepPlayFileKeywords": "",
                 "selectedPlayer": "0"
         },
-		
-	{
+        {
 		"key": "bilimv",
 		"name": "🎙MV┃哔哩",
 		"type": 5,
@@ -364,7 +347,6 @@
 		"keepPlayFileKeywords": "",
 		"selectedPlayer": "0"
 	},
-	
 	{
 		"key": "cfkj86",
 		"name": "🥇金牌┃直链",
@@ -380,7 +362,6 @@
 		"keepPlayFileKeywords": "",
                 "selectedPlayer":"0"
 	},
-	
 	{
 		"key": "kuyun",
 		"name": "☁️酷云┃直链",
@@ -486,9 +467,6 @@
 		"keepPlayFileKeywords": "",
                 "selectedPlayer":"0"
 	},
-
-	
-	
         {
 		"key": "zhenbuka",
 		"name": "🚀真不卡┃嗅探",
@@ -616,7 +594,6 @@
 		"filterPlayFileKeywords": "",
 		"keepPlayFileKeywords": ""
 	},
-	
 	{
 		"key": "tvby02",
 		"name": "☁tvb云播┃嗅探",
@@ -631,10 +608,7 @@
 		"filterPlayFileKeywords": "",
 		"keepPlayFileKeywords": ""
 	},
-
-       
-		
-	{
+        {
 		"key": "dmand5",
 		"name": "🏝动漫岛┃嗅探",
 		"type": 6,
@@ -691,8 +665,7 @@
 		"filterPlayFileKeywords": "",
 		"keepPlayFileKeywords": ""
 	},
-
-	{
+        {
                 "key": "tt776b",
                 "name": "🌀风车动漫┃嗅探",
                 "type": 6,
@@ -707,7 +680,6 @@
                 "keepPlayFileKeywords": "",
                 "selectedPlayer": "0"
         },
-	
 	{
 		"key": "360ys",
 		"name": "3️⃣360影视┃嗅探",
@@ -809,7 +781,6 @@
 		"keepPlayFileKeywords": ""
 		"selectedPlayer": "0"
 	},
-	
 	{
 		"key": "yingso",
 		"name": "夸克影搜┃仅搜索",
