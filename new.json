@@ -66,21 +66,6 @@
 	        "selectedPlayer": "0"
 	},
 
-	{
-		"key": "vq",
-		"name": "🐹腾云驾雾┃官网",
-		"type": 5,
-		"searchable": 1,
-		"filterClass": "",
-		"firstClass": "",
-		"filterPlay": "",
-		"firstPlay": "腾云驾雾",
-		"ext": "./newjs/vq.js",
-		"flagable": 0,
-		"filterPlayFileKeywords": "",
-		"keepPlayFileKeywords": "",
-		"selectedPlayer": "0"
-	},
 	
 
 	{
@@ -735,6 +720,20 @@
 		"keepPlayFileKeywords": ""
 	},
 	{
+		"key": "pptv66",
+		"name": "🥏皮皮┃嗅探",
+		"type": 6,
+		"searchable": 1,
+		"filterClass": "",
+		"firstClass": "",
+		"filterPlay": "",
+		"firstPlay": "",
+		"ext": "https://ghproxy.cn/https://raw.githubusercontent.com/alantang1977/xBox/refs/heads/main/soup/pptv_soup.json",
+		"flagable": 0,
+		"filterPlayFileKeywords": "",
+		"keepPlayFileKeywords": ""
+	},
+	{
                 "key": "taopian",
                 "name": "💾淘片┃资源",
                 "type": 1,
@@ -806,12 +805,123 @@
 		"filterPlayFileKeywords": "",
 		"keepPlayFileKeywords": ""
 	},
-	
-	
+
+	{
+      "key": "ffzyapi",
+      "name": "非凡资源┃采集",
+      "type": 1,
+      "searchable": 1,
+      "filterClass": "伦理片,电影片,连续剧,综艺片,",
+      "firstClass": "国产剧,香港剧,韩国剧,国产动漫",
+      "filterPlay": "feifan",
+      "firstPlay": "",
+      "ext": "http://cj.ffzyapi.com/api.php/provide/vod/at/xml/",
+      "flagable": 0,
+      "filterPlayFileKeywords": "",
+      "keepPlayFileKeywords": ""
+    },
+    {
+      "key": "hongniuzy2",
+      "name": "红牛资源┃采集",
+      "type": 1,
+      "searchable": 0,
+      "filterClass": "电影,连续剧,伦理片,体育赛事",
+      "firstClass": "国产剧,港澳剧",
+      "filterPlay": "hnyun",
+      "firstPlay": "hnm3u8",
+      "ext": "https://www.hongniuzy2.com/api.php/provide/vod/",
+      "flagable": 0,
+      "filterPlayFileKeywords": "",
+      "keepPlayFileKeywords": ""
+    },
+    {
+      "key": "xinlangapi",
+      "name": "新浪资源┃采集",
+      "type": 1,
+      "searchable": 0,
+      "filterClass": "电影,电视剧,伦理片,体育",
+      "firstClass": "大陆剧,港澳剧",
+      "filterPlay": "xlyun",
+      "firstPlay": "xlm3u8",
+      "ext": "https://api.xinlangapi.com/xinlangapi.php/provide/vod/",
+      "flagable": 0,
+      "filterPlayFileKeywords": "",
+      "keepPlayFileKeywords": ""
+    },
+    {
+      "key": "apibdzy",
+      "name": "百度资源┃采集",
+      "type": 1,
+      "searchable": 0,
+      "filterClass": "电影,电视剧,综艺,动漫,邵氏电影,伦理片,体育赛事,资讯,电影资讯,明星资讯,预告",
+      "firstClass": "大陆剧,港澳剧,国产动漫",
+      "filterPlay": "bdyun",
+      "firstPlay": "bdm3u8",
+      "ext": "https://api.apibdzy.com/api.php/provide/vod/",
+      "flagable": 0,
+      "filterPlayFileKeywords": "",
+      "keepPlayFileKeywords": ""
+    },
+    {
+      "key": "wolongzyw",
+      "name": "卧龙资源┃采集",
+      "type": 1,
+      "searchable": 1,
+      "filterClass": "电影片,连续剧,综艺片,动漫片,足球,伦理片,篮球,电影解说",
+      "firstClass": "国产剧,香港剧,国产动漫",
+      "filterPlay": "",
+      "firstPlay": "",
+      "ext": "https://collect.wolongzyw.com/api.php/provide/vod/",
+      "flagable": 0,
+      "filterPlayFileKeywords": "",
+      "keepPlayFileKeywords": ""
+    },
+    {
+      "key": "suoniapi",
+      "name": "索尼资源┃采集",
+      "type": 1,
+      "searchable": 0,
+      "filterClass": "邵氏电影,伦理,写真热舞,西方伦理,日本伦理,影视解说,斯诺克,预告片,足球,篮球,体育赛事,两性课堂,韩国伦理,爽文短剧,电影,电视剧,综艺,动漫,港台三级",
+      "firstClass": "国产剧,港剧,国产动漫",
+      "filterPlay": "",
+      "firstPlay": "",
+      "ext": "https://suoniapi.com/api.php/provide/vod/",
+      "flagable": 0,
+      "filterPlayFileKeywords": "",
+      "keepPlayFileKeywords": ""
+    },
+    {
+      "key": "tiankongapi",
+      "name": "天空资源┃采集",
+      "type": 1,
+      "searchable": 1,
+      "filterClass": "电影,体育赛事,电影解说",
+      "firstClass": "国产剧,香港剧,国产动漫",
+      "filterPlay": "tkyun",
+      "firstPlay": "tkm3u8",
+      "ext": "https://api.tiankongapi.com/api.php/provide/vod/",
+      "flagable": 0,
+      "filterPlayFileKeywords": "",
+      "keepPlayFileKeywords": ""
+    },
+    {
+      "key": "wujinapi",
+      "name": "无尽资源┃采集",
+      "type": 1,
+      "searchable": 1,
+      "filterClass": "短剧,电影,连续剧,综艺,动漫,港台三级,韩国伦理,西方伦理,日本伦理,体育赛事,两性课堂,写真热舞,预告片,足球,影视解说,篮球,邵氏电影,伦理片,头条,公告,资讯",
+      "firstClass": "国产剧,香港剧,国产动漫",
+      "filterPlay": "",
+      "firstPlay": "wjm3u8",
+      "ext": "https://api.wujinapi.me/api.php/provide/vod/",
+      "flagable": 0,
+      "filterPlayFileKeywords": "",
+      "keepPlayFileKeywords": ""
+    },	
 		
 	{
 		"key": "yunpan",
-		"name": "夸克云盘┃仅搜索",
+		"name": "🎏夸克云盘┃仅搜索",
 		"type": 5,
 		"searchable": 1,
 		"filterClass": "",
@@ -825,7 +935,7 @@
 	},
 	{
 		"key": "pansou",
-		"name": "夸克盘搜┃仅搜索",
+		"name": "🎏夸克盘搜┃仅搜索",
 		"type": 5,
 		"searchable": 1,
 		"filterClass": "",
@@ -839,7 +949,7 @@
 	},
 	{
 		"key": "yunpansou",
-		"name": "夸克云盘搜┃仅搜索",
+		"name": "🎏夸克云盘搜┃仅搜索",
 		"type": 5,
 		"searchable": 1,
 		"filterClass": "",
@@ -850,7 +960,22 @@
 		"flagable": 0,
 		"filterPlayFileKeywords": "",
 		"keepPlayFileKeywords": ""
-	}
+	},
+	{
+                "key": "yiso",
+                "name": "🎏影搜易搜┃仅搜索",
+                "type": 5,
+                "searchable": 1,
+                "filterClass": "",
+                "firstClass": "",
+                "filterPlay": "",
+                "firstPlay": "",
+                "ext": "https://ghproxy.cn/https://raw.githubusercontent.com/alantang1977/xBox/refs/heads/main/json/yiso.js",
+                "flagable": 0,
+                "filterPlayFileKeywords": "",
+                "keepPlayFileKeywords": "",
+                "selectedPlayer": "0"
+        }
 	],
 	"parses": [
 	{
