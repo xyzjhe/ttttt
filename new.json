@@ -17,9 +17,7 @@
 		"keepPlayFileKeywords": "",
                 "recommend": "1"
 	},
-
-	
-
+		
 	{
 		"key": "subaibai",
 		"name": "🌥素白白┃直链",
@@ -49,8 +47,7 @@
                 "filterPlayFileKeywords": "",
                 "keepPlayFileKeywords": ""
         },
-
-	{
+        {
 	        "key": "xlys",
 	        "name": "🦸修罗┃影视",
 	        "type": 5,
@@ -65,8 +62,6 @@
 	        "keepPlayFileKeywords": "",
 	        "selectedPlayer": "0"
 	},
-
-	
 
 	{
   		"key": "dandanplay",
@@ -83,8 +78,7 @@
   		"keepPlayFileKeywords": "",
         	"danmu":"1"
  	},
-
-	{
+        {
                 "key": "zonghedanmu1",
                 "name": "☄️┃综合┃弹幕1",
                 "type": 5,
@@ -162,7 +156,7 @@
 	},
 	{
 	        "key": "huban",
-	        "name": "🐅小虎斑┃网盘",
+	        "name": "🐅虎斑┃网盘",
 	        "type": 5,
 	        "searchable": 1,
 	        "filterClass": "",
@@ -215,7 +209,7 @@
 		"filterClass": "",
 		"firstClass": "",
 		"filterPlay": "",
-		"firstPlay": "夸克网盘,夸克网盘2",
+		"firstPlay": "UC网盘,夸克网盘,夸克网盘2",
 		"ext": "./newjs/wogg.js",
 		"flagable": 0,
 		"filterPlayFileKeywords": "",
@@ -299,6 +293,54 @@
 		"keepPlayFileKeywords": "",
 		"selectedPlayer": "0"
 	},
+
+	{
+		"key": "pansearch",
+		"name": "pansearch┃网盘",
+		"type": 5,
+		"searchable": 1,
+		"filterClass": "",
+		"firstClass": "",
+		"filterPlay": "",
+		"firstPlay": "",
+		"ext": "https://ghproxy.cn/https://raw.githubusercontent.com/Jokervvv9/tBox/refs/heads/main/newjs/pansearch2.js",
+		"flagable": 0,
+		"filterPlayFileKeywords": "",
+		"keepPlayFileKeywords": "",
+		"selectedPlayer": "0"
+	},
+	{
+		"key": "guanying",
+		"name": "📺观影┃网盘",
+		"type": 5,
+		"searchable": 1,
+		"filterClass": "",
+		"firstClass": "",
+		"filterPlay": "",
+		"firstPlay": "",
+		"ext": "https://ghproxy.cn/https://raw.githubusercontent.com/Jokervvv9/tBox/refs/heads/main/newjs/guanying.js",
+		"flagable": 0,
+		"filterPlayFileKeywords": "",
+		"keepPlayFileKeywords": "",
+		"selectedPlayer": "0"
+	},
+
+	{
+		"key": "bdbd",
+		"name": "修罗影视|直连",
+		"type": 5,
+		"searchable": 0,
+		"filterClass": "",
+		"firstClass": "国产剧,番剧",
+		"filterPlay": "",
+		"firstPlay": "",
+		"ext": "https://ghproxy.cn/https://raw.githubusercontent.com/Jokervvv9/tBox/refs/heads/main/newjs/bd.js",
+		"flagable": 0,
+		"filterPlayFileKeywords": "",
+		"keepPlayFileKeywords": "",
+		"selectedPlayer": "0"
+	},
+		
 	{
 		"key": "nanf",
 		"name": "🀁南风┃夸克",
@@ -806,7 +848,7 @@
 		"keepPlayFileKeywords": ""
 	},
 
-	{
+    {
       "key": "ffzyapi",
       "name": "非凡资源┃采集",
       "type": 1,
@@ -970,7 +1012,7 @@
                 "firstClass": "",
                 "filterPlay": "",
                 "firstPlay": "",
-                "ext": "https://ghproxy.cn/https://raw.githubusercontent.com/alantang1977/xBox/refs/heads/main/json/yiso.js",
+                "ext": "https://ghproxy.cn/https://raw.githubusercontent.com/Jokervvv9/tBox/refs/heads/main/newjs/yiso.js",
                 "flagable": 0,
                 "filterPlayFileKeywords": "",
                 "keepPlayFileKeywords": "",
