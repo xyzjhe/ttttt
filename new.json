@@ -835,7 +835,22 @@
 		"keepPlayFileKeywords": ""
 	},
 
-        {
+	{
+                "key": "lziapi",
+                "name": "量子资源┃采集",
+                "type": 1,
+                "searchable": 1,
+                "filterClass": "伦理片,电影片,连续剧,综艺片,",
+                "firstClass": "国产剧,香港剧,韩国剧,国产动漫",
+                "filterPlay": "liangzi",
+                "firstPlay": "",
+                "ext": "https://cj.lziapi.com/api.php/provide/vod/",
+                "flagable": 0,
+                "filterPlayFileKeywords": "",
+                "keepPlayFileKeywords": ""
+        },
+        
+	{
                 "key": "ffzyapi",
                 "name": "非凡资源┃采集",
                 "type": 1,
@@ -844,7 +859,7 @@
                 "firstClass": "国产剧,香港剧,韩国剧,国产动漫",
                 "filterPlay": "feifan",
                 "firstPlay": "",
-                "ext": "http://cj.ffzyapi.com/api.php/provide/vod/at/xml/",
+                "ext": "http://cj.ffzyapi.com/api.php/provide/vod/",
                 "flagable": 0,
                 "filterPlayFileKeywords": "",
                 "keepPlayFileKeywords": ""
