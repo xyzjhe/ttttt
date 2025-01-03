@@ -20,7 +20,7 @@
 		
 	{
 		"key": "subaibai",
-		"name": "🌥素白白┃直链",
+		"name": "🌥素白┃直链",
 		"type": 5,
 		"searchable": 1,
 		"filterClass": "",
@@ -35,7 +35,7 @@
 	},
 	{
                 "key": "wwgz",
-                "name": "🐶旺旺旺┃嗅探",
+                "name": "🐶旺旺┃嗅探",
                 "type": 6,
                 "searchable": 1,
                 "filterClass": "",
@@ -49,7 +49,7 @@
         },
         {
 	        "key": "xlys",
-	        "name": "🦸修罗┃影视",
+	        "name": "🦸修罗┃直链",
 	        "type": 5,
 	        "searchable": 1,
 	        "filterClass": "",
