@@ -64,6 +64,37 @@
 	},
 
 	{
+		"key": "tiantian",
+		"name": "天天影视┃直链",
+		"type": 5,
+		"searchable": 1,
+		"filterClass": "",
+		"firstClass": "",
+		"filterPlay": "",
+		"firstPlay": "",
+		"ext": "./newjs/tiantian.js",
+		"flagable": 0,
+		"filterPlayFileKeywords": "",
+		"keepPlayFileKeywords": "",
+		"selectedPlayer": "0"
+	},
+
+	{
+		"key": "hdmoli",
+		"name": "hdmoli┃嗅探",
+		"type": 6,
+		"searchable": 1,
+		"filterClass": "",
+		"firstClass": "",
+		"filterPlay": "",
+		"firstPlay": "线路5",
+		"ext": "./soup/hdmoli_soup.json",
+		"flagable": 0,
+		"filterPlayFileKeywords": "",
+		"keepPlayFileKeywords": ""
+	},
+
+	{
     		"key": "youtube",
     		"name": "youtube┃看世界",
     		"type": 5,
