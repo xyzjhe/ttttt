@@ -94,21 +94,7 @@
 		"keepPlayFileKeywords": ""
 	},
 
-	{
-		"key": "gzys",
-		"name": "🍉瓜子┃直链1",
-		"type": 5,
-		"searchable": 1,
-		"filterClass": "",
-		"firstClass": "",
-		"filterPlay": "",
-		"firstPlay": "",
-		"ext": "./newjs/gz_app.js",
-		"flagable": 0,
-		"filterPlayFileKeywords": "",
-		"keepPlayFileKeywords": "",
-		"selectedPlayer": "0"
-	},
+	
 
 	{
 		"key": "mifun",
@@ -156,6 +142,23 @@
   		"keepPlayFileKeywords": "",
         	"danmu":"1"
  	},
+
+	{
+		"key": "gzys",
+		"name": "🍉瓜子app┃直链",
+		"type": 5,
+		"searchable": 1,
+		"filterClass": "",
+		"firstClass": "",
+		"filterPlay": "",
+		"firstPlay": "",
+		"ext": "./newjs/gz_app.js",
+		"flagable": 0,
+		"filterPlayFileKeywords": "",
+		"keepPlayFileKeywords": "",
+		"selectedPlayer": "0"
+	},
+		
         {
                 "key": "zonghedanmu1",
                 "name": "☄️┃综合┃弹幕1",
