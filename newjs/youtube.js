@@ -1,5 +1,27 @@
 
 const customText = {
+  短剧: {
+    嘟嘟剧场: "@DUDUJUCHANG",
+    蜜糖短剧: "@mitangduanju",
+    剧多多: "@DramaPlus-99",
+    古风好剧: "@GUgooddrama",
+    甜梦剧场: "@Sweet-Dream-drama",
+    奈奈剧场: "@nainai125",
+    甜甜追短劇: "@TT-drama",
+    下山追短剧: "@XiashanDrama",
+    月亮短剧社: "@user-moon-drama-club",
+    百万好剧场: "@1-pw5ox",
+    指间看剧: "@FingertipsTV1",
+    小穎美食: "@XiaoYingFood",
+    李子柒Liziqi: "@cnliziqi",
+    纪实说: "@C-Documentary",
+  },
+  综艺: {
+    腾讯热综: "@TencentVideoShow",
+    综艺Show: "@C-HitShow",
+    浙江卫视奔跑吧: "@KeepRunningChina",
+    纪实风云: "@纪实风云",
+  },
   动漫: {
     Anime: "@AniOneAnime",
     一号动漫社: "@animationclub-gq5vr",
