@@ -112,6 +112,22 @@
 	},
 
 	{
+  		"key": "buye",
+  		"name": "不夜┃LB",
+  		"type": 5,
+  		"searchable": 1,
+  		"filterClass": "",
+  		"firstClass": "",
+  		"filterPlay": "",
+  		"firstPlay": "",
+  		"ext": "./newjs/buye_daozhang.js",
+  		"flagable": 0,
+  		"filterPlayFileKeywords": "",
+  		"keepPlayFileKeywords": "",
+        	"webSite":"http://47.94.40.20:35457/video/libo?token=67028187753e96b8"
+ 	},
+
+	{
     		"key": "youtube",
     		"name": "youtube┃看世界",
     		"type": 5,
