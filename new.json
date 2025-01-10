@@ -183,7 +183,37 @@
 		"keepPlayFileKeywords": ""
 	},
 
-	
+	{
+		"key": "aqyiys",
+		"name": "🥝奇奇爱┃官",
+		"type": 5,
+		"searchable": 1,
+		"filterClass": "",
+		"firstClass": "",
+		"filterPlay": "",
+		"firstPlay": "",
+		"ext": "https://ghproxy.cn/https://raw.githubusercontent.com/Jokervvv9/tBox/refs/heads/main/newjs/buye_daozhang.js",
+		"flagable": 1,
+		"filterPlayFileKeywords": "",
+		"keepPlayFileKeywords": "",
+		"webSite": "http://drpys.540734621.xyz:31038/api/奇珍异兽[官]?pwd=yydffxz"
+	},
+
+	{
+		"key": "网飞猫",
+		"name": "🐱网飞猫┃嗅探",
+		"type": 6,
+		"searchable": 1,
+		"filterClass": "",
+		"firstClass": "",
+		"filterPlay": "",
+		"firstPlay": "",
+		"ext": "./soup/网飞猫_soup.json",
+		"flagable": 0,
+		"filterPlayFileKeywords": "",
+		"keepPlayFileKeywords": "",
+		"selectedPlayer": "0"
+	},
 
 	{
     		"key": "youtube",
@@ -426,7 +456,7 @@
 		"firstClass": "",
 		"filterPlay": "",
 		"firstPlay": "夸克网盘,夸克网盘2",
-		"ext": "https://ghproxy.cn/https://raw.githubusercontent.com/leevi0709/tBox/refs/heads/main/newjs/duoduo.js",
+		"ext": "./newjs/duoduo.js",
 		"flagable": 0,
 		"filterPlayFileKeywords": "",
 		"keepPlayFileKeywords": "",
