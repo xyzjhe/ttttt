@@ -1,5 +1,3 @@
-
-
 class DanMu {
   constructor() {
       /**
@@ -62,6 +60,9 @@ async function searchDanMu(name, episode, playurl) {
   return JSON.stringify(backData);
 }
 
+
+
+
 async function searchByDandanPlay(name, episode, playurl) {
   const list = [];
   const maxRetries = 1; // 最大重试次数
@@ -110,16 +111,49 @@ async function searchByDandanPlay(name, episode, playurl) {
     console.log(cleanUrl);
 
     while (retries < maxRetries) {
-      // 创建两个请求的 Promise
+      // 创建三个请求的 Promise
       const danMuRequest1 = req(`http://120.233.89.199:2223/api/?key=nhOivt778SpX1hENf1&url=${cleanUrl}`);
       const danMuRequest2 = req(`https://dm.s78.top/?ac=dm&key=tH1pX3jH5l&url=${cleanUrl}`);
+      const danMuRequest3 = req(`https://fc.lyz05.cn/?url=${cleanUrl}`);
 
       // 使用 Promise.race 来获取最先完成的请求
-      const danMuResponse = await Promise.race([danMuRequest1, danMuRequest2]);
-      danMuResult = await danMuResponse.json();
+      const danMuResponse = await Promise.race([danMuRequest1, danMuRequest2, danMuRequest3]);
+      const responseText = await danMuResponse.text();
 
-      if (danMuResult.danmuku?.length > 0) {
-        break; // 如果有数据，退出循环
+      // 判断返回的数据格式
+      if (danMuResponse.url.includes('fc.lyz05.cn')) {
+        // 检查是否为空响应
+        if (responseText.trim() === '' || responseText.trim() === '<i></i>') {
+          console.log('No danmu data found from fc.lyz05.cn, trying other sources...');
+          continue; // 空响应，继续尝试其他接口
+        }
+
+        // 使用正则表达式解析 XML 格式的弹幕数据
+        const regex = /<d p="([^"]+)">([^<]+)<\/d>/g;
+        let match;
+        while ((match = regex.exec(responseText)) !== null) {
+          const [_, pAttributes, content] = match;
+          const attributes = pAttributes.split(',');
+          const time = parseFloat(attributes[0]); // 提取 time
+          const color = attributes[3]; // 提取 color
+          list.push({ time, content, color });
+        }
+        if (list.length > 0) {
+          break; // 成功解析，退出循环
+        }
+      } else {
+        // 处理 JSON 格式的弹幕数据
+        danMuResult = JSON.parse(responseText);
+        if (danMuResult.danmuku?.length > 0) {
+          for (const element of danMuResult.danmuku) {
+            list.push({
+              time: element[0], // 提取 time
+              content: element[4], // 提取 content
+              color: element[2], // 提取 color
+            });
+          }
+          break; // 成功解析，退出循环
+        }
       }
 
       retries++;
@@ -128,16 +162,7 @@ async function searchByDandanPlay(name, episode, playurl) {
       await new Promise(resolve => setTimeout(resolve, 1000)); // 等待1秒后重试
     }
 
-    // 处理弹幕数据
-    if (danMuResult.danmuku?.length > 0) {
-      for (const element of danMuResult.danmuku) {
-        list.push({
-          time: element[0], // 提取 time
-          content: element[4], // 提取 content
-          color: element[2], // 提取 color
-        });
-      }
-    } else {
+    if (list.length === 0) {
       console.log('No danmuku data after retries.');
     }
 
@@ -148,6 +173,7 @@ async function searchByDandanPlay(name, episode, playurl) {
 
   return list;
 }
+
 
 async function homeContent() {
 }

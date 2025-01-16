@@ -582,7 +582,7 @@ if (isQuark) {
          while (true) {
            const getUrl = url.includes(".uc.cn")
              ? `https://pc-api.uc.cn/1/clouddrive/share/sharepage/detail?pr=UCBrowser&fr=pc&pwd_id=${pwd_id}&stoken=${encodeURIComponent(stoken)}&pdir_fid=${pdir_fid}&force=0&_page=${page}&_size=50&_fetch_banner=0&_fetch_share=0&_fetch_total=1&_sort=file_type:asc,file_name:asc`
-             : `https://drive-h.quark.cn/1/clouddrive/share/sharepage/detail?pr=ucpro&fr=pc&uc_param_str=&pwd_id=${pwd_id}&stoken=${encodeURIComponent(stoken)}&pdir_fid=${pdir_fid}&force=0&_page=${page}&_size=50&_fetch_banner=1&_fetch_share=1&_fetch_total=1&_sort=file_type:asc,updated_at:desc&__dt=494&__t=${Date.now()}`;
+             : `https://drive-h.quark.cn/1/clouddrive/share/sharepage/detail?pr=ucpro&fr=pc&uc_param_str=&pwd_id=${pwd_id}&stoken=${encodeURIComponent(stoken)}&pdir_fid=${pdir_fid}&force=0&_page=${page}&_size=50&_fetch_banner=1&_fetch_share=1&_fetch_total=1&_sort=file_type:asc,file_name:asc&__dt=494&__t=${Date.now()}`;
    
            const getResponse = await 访问网页(getUrl, 0);
            const getData = JSON.parse(getResponse);
@@ -690,7 +690,7 @@ if (isQuark) {
    
        // Start fetching from the root directory (pdir_fid=0)
        const allVideos = await fetchAllVideos(0);
-       const sortedVideos = sortVideos(allVideos);
+       const sortedVideos =allVideos;// sortVideos(allVideos);
        const videosWithSize = appendFileSize(sortedVideos);
        const formattedResult = formatResult(videosWithSize, pwd_id, stoken);
        return formattedResult;
@@ -1137,7 +1137,7 @@ async function searchContent(keyword) {
             vod_id:  `/${tid}/${data.inlist.i[index]}`,
             vod_name: vod_name,
             vod_remarks: data.inlist.g[index],
-            vod_pic: `https://s.tutu.pm/img/${tid}/${data.inlist.i[index]}.webp`
+            vod_pic: `https://s.tutu.pm/img/${tid}/${data.inlist.i[index]}/220.webp`
         }));
         console.log(generateResponse(1, "数据列表", list));
         return generateResponse(1, "数据列表", list);
@@ -1175,7 +1175,7 @@ function generateResponse(code, msg, list = []) {
         const vod_year = data.year || '';
         const vod_director =  data.daoyan.toString() || '未知';
         const vod_actor = data.zhuyan.toString() || '未知';
-        const vod_pic = `https://s.tutu.pm/img/${ids}.webp` || '';
+        const vod_pic = `https://s.tutu.pm/img/${ids}/220.webp` || '';
       let vod_remarks = 移除html代码(data.status);
       const vod_content = data.introduce || '暂无剧情';
       const html2 = await 访问网页(downurl, "GET", "", gygCookie);
