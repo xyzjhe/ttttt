@@ -232,7 +232,7 @@
 
 	{
 		"key": "meiyanguai",
-		"name": "🥝美颜怪",
+		"name": "🥝美颜怪┃官",
 		"type": 5,
 		"searchable": 1,
 		"filterClass": "",
@@ -343,7 +343,7 @@
 
 	{
 		"key": "zonghedanmu3",
-		"name": "综合[三接口并发]",
+		"name": "综合[三接口并发]┃弹幕3",
 		"type": 5,
 		"searchable": 0,
 		"filterClass": "",
@@ -357,21 +357,7 @@
 		"danmu":"1"
 	},
 
-	{
-		"key": "hsck",
-		"name": "hsck",
-		"type": 5,
-		"searchable": 1,
-		"filterClass": "",
-		"firstClass": "",
-		"filterPlay": "",
-		"firstPlay": "",
-		"ext": "https://ghproxy.cn/https://raw.githubusercontent.com/Jokervvv9/tBox/refs/heads/main/newjs/hsck.js",
-		"flagable": 0,
-		"filterPlayFileKeywords": "",
-		"keepPlayFileKeywords": "",
-                "selectedPlayer":"0"
-	},
+	
 
 	{
 		"key": "mogg",
@@ -1119,7 +1105,7 @@
 
 	{
 		"key": "555dy",
-		"name": "555dy",
+		"name": "555dy┃嗅探",
 		"type": 6,
 		"searchable": 1,
 		"filterClass": "",
@@ -1135,7 +1121,7 @@
 
 	{
 		"key": "官源综合",
-		"name": "官源综合",
+		"name": "官源综合┃采集",
 		"type": 5,
 		"searchable": 1,
 		"filterClass": "",
