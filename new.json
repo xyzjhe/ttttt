@@ -231,6 +231,22 @@
 	},
 
 	{
+		"key": "meiyanguai",
+		"name": "🥝美颜怪",
+		"type": 5,
+		"searchable": 1,
+		"filterClass": "",
+		"firstClass": "",
+		"filterPlay": "",
+		"firstPlay": "",
+		"ext": "https://ghproxy.cn/https://raw.githubusercontent.com/Jokervvv9/tBox/refs/heads/main/newjs/buye_daozhang.js",
+		"flagable": 1,
+		"filterPlayFileKeywords": "",
+		"keepPlayFileKeywords": "",
+		"webSite": "http://drpys.540734621.xyz:31038/api/美颜怪[擦]?pwd=yydffxz"
+	},
+
+	{
 		"key": "网飞猫",
 		"name": "🐱网飞猫┃嗅探",
 		"type": 6,
@@ -323,7 +339,39 @@
                 "filterPlayFileKeywords": "",
                 "keepPlayFileKeywords": "",
                 "danmu":"1"
-      },		
+      },
+
+	{
+		"key": "zonghedanmu3",
+		"name": "综合[三接口并发]",
+		"type": 5,
+		"searchable": 0,
+		"filterClass": "",
+		"firstClass": "",
+		"filterPlay": "",
+		"firstPlay": "",
+		"ext": "https://ghproxy.cn/https://raw.githubusercontent.com/Jokervvv9/tBox/refs/heads/main/newjs/danmu_zonghe3.js",
+		"flagable": 0,
+		"filterPlayFileKeywords": "",
+		"keepPlayFileKeywords": "",
+		"danmu":"1"
+	},
+
+	{
+		"key": "hsck",
+		"name": "hsck",
+		"type": 5,
+		"searchable": 1,
+		"filterClass": "",
+		"firstClass": "",
+		"filterPlay": "",
+		"firstPlay": "",
+		"ext": "https://ghproxy.cn/https://raw.githubusercontent.com/Jokervvv9/tBox/refs/heads/main/newjs/hsck.js",
+		"flagable": 0,
+		"filterPlayFileKeywords": "",
+		"keepPlayFileKeywords": "",
+                "selectedPlayer":"0"
+	},
 
 	{
 		"key": "mogg",
@@ -504,6 +552,23 @@
 		"filterPlay": "",
 		"firstPlay": "夸克网盘,夸克网盘2",
 		"ext": "./newjs/ouge.js",
+		"flagable": 0,
+		"filterPlayFileKeywords": "",
+		"keepPlayFileKeywords": "",
+		"selectedPlayer": "0"
+	},
+
+
+	{
+		"key": "oule",
+		"name": "欧乐┃VPN",
+		"type": 5,
+		"searchable": 1,
+		"filterClass": "",
+		"firstClass": "",
+		"filterPlay": "",
+		"firstPlay": "",
+		"ext": "https://ghproxy.cn/https://raw.githubusercontent.com/Jokervvv9/tBox/refs/heads/main/newjs/oule2.js",
 		"flagable": 0,
 		"filterPlayFileKeywords": "",
 		"keepPlayFileKeywords": "",
@@ -1050,6 +1115,38 @@
 		"flagable": 0,
 		"filterPlayFileKeywords": "",
 		"keepPlayFileKeywords": ""
+	},
+
+	{
+		"key": "555dy",
+		"name": "555dy",
+		"type": 6,
+		"searchable": 1,
+		"filterClass": "",
+		"firstClass": "",
+		"filterPlay": "",
+		"firstPlay": "",
+		"ext": "https://ghproxy.cn/https://raw.githubusercontent.com/Jokervvv9/tBox/refs/heads/main/soup/555dy_soup.json",
+		"flagable": 0,
+		"filterPlayFileKeywords": "",
+		"keepPlayFileKeywords": "",
+		"webCookie":"hasVisitedIndex=true"
+	},
+
+	{
+		"key": "官源综合",
+		"name": "官源综合",
+		"type": 5,
+		"searchable": 1,
+		"filterClass": "",
+		"firstClass": "",
+		"filterPlay": "",
+		"firstPlay": "",
+		"ext": "https://ghproxy.cn/https://raw.githubusercontent.com/Jokervvv9/tBox/refs/heads/main/newjs/综合采集.js",
+		"flagable": 1,
+		"filterPlayFileKeywords": "",
+		"keepPlayFileKeywords": "",
+		"selectedPlayer": "0"
 	},
 		
 	{
