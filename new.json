@@ -111,6 +111,37 @@
 	},
 
 	{
+		"key": "4k影视",
+		"name": "4k影视┃直链",
+		"type": 5,
+		"searchable": 1,
+		"filterClass": "",
+		"firstClass": "",
+		"filterPlay": "",
+		"firstPlay": "",
+		"ext": "./newjs/4k影视2.js",
+		"flagable": 0,
+		"filterPlayFileKeywords": "",
+		"keepPlayFileKeywords": ""
+	},
+
+	{
+		"key": "网易云音乐",
+		"name": "网易云┃音乐",
+		"type": 5,
+		"searchable": 1,
+		"filterClass": "",
+		"firstClass": "",
+		"filterPlay": "",
+		"firstPlay": "",
+		"ext": "./newjs/网易云音乐2.js",
+		"flagable": 0,
+		"filterPlayFileKeywords": "",
+		"keepPlayFileKeywords": "",
+		"selectedPlayer": "2"
+	},
+
+	{
 		"key": "八号影视",
 		"name": "八号影视┃嗅探",
 		"type": 6,
