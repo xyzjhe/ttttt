@@ -142,6 +142,52 @@
 	},
 
 	{
+		"key": "网飞猫",
+		"name": "🐱网飞猫┃嗅探",
+		"type": 6,
+		"searchable": 1,
+		"filterClass": "",
+		"firstClass": "",
+		"filterPlay": "",
+		"firstPlay": "",
+		"ext": "./soup/网飞猫_soup.json",
+		"flagable": 0,
+		"filterPlayFileKeywords": "",
+		"keepPlayFileKeywords": "",
+		"selectedPlayer": "0"
+	},
+
+	{
+		"key": "奈飞中文",
+		"name": "奈飞中文┃嗅探",
+		"type": 6,
+		"searchable": 1,
+		"filterClass": "",
+		"firstClass": "",
+		"filterPlay": "",
+		"firstPlay": "",
+		"ext": "./soup/奈飞中文.json",
+		"flagable": 0,
+		"filterPlayFileKeywords": "",
+		"keepPlayFileKeywords": ""
+	},
+	{
+		"key": "freeok",
+		"name": "freeok┃嗅探",
+		"type": 6,
+		"searchable": 1,
+		"filterClass": "",
+		"firstClass": "",
+		"filterPlay": "",
+		"firstPlay": "OK自营5",
+		"ext": "./soup/freeok_soup.json",
+		"flagable": 0,
+		"filterPlayFileKeywords": "",
+		"keepPlayFileKeywords": "",
+		"selectedPlayer": "0","webJS":"KGZ1bmN0aW9uKCl7CiAgICAgICAgdmFyIHBhcmVudEVsZW1lbnQgPSBkb2N1bWVudC5nZXRFbGVtZW50QnlJZCgncGxheWxlZnQnKTsKICAgICAgICB2YXIgaWZyYW1lID0gcGFyZW50RWxlbWVudC5xdWVyeVNlbGVjdG9yKCdpZnJhbWUnKTsKICAgICAgICB2YXIgaWZyYW1lRG9jdW1lbnQgPSBpZnJhbWUuY29udGVudERvY3VtZW50OwogICAgICAgIHZhciBzdGFydEJ1dHRvbiA9IGlmcmFtZURvY3VtZW50LmdldEVsZW1lbnRCeUlkKCdzdGFydCcpOwogICAgICAgIHN0YXJ0QnV0dG9uLmNsaWNrKCk7CiAgICB9KSgpOw=="
+        },
+
+	{
 		"key": "八号影视",
 		"name": "八号影视┃嗅探",
 		"type": 6,
