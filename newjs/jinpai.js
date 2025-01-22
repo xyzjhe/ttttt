@@ -1,5 +1,5 @@
 //当域名更换的话，修改下方网址即可
-const webSite='https://hrrcjob.com';
+const webSite= 'https://www.cfkj86.com';
 
 async function 访问网页(url, method, postParams, cookie, headers, timeout = 15000, setCookieCallback) {
     // 定义请求方法
@@ -64,6 +64,61 @@ async function 访问网页(url, method, postParams, cookie, headers, timeout = 
     }
   }
 
+//调试脚本时用访问网页2，调试完毕后改回访问网页
+async function 访问网页2(url, method, postParams, cookie, headers, timeout = 15000, setCookieCallback) {
+  // 定义请求方法
+  const methods = ['GET', 'POST', 'PUT'];
+  const requestMethod = methods[method] || 'GET';
+  // 构建请求头
+  const requestHeaders = {};
+  if (cookie) {
+    requestHeaders['Cookie'] = cookie;
+  }
+  if (headers) {
+    headers.split('\n').forEach(header => {
+      const index = header.indexOf(':');
+      if (index !== -1) {
+        const key = header.substring(0, index).trim();
+        const value = header.substring(index + 1).trim();
+        if (key && value) {
+          requestHeaders[key] = value;
+        }
+      }
+    });
+  }
+  // 构建请求体（仅在 POST 或 PUT 时需要）
+  let body = null;
+  if (requestMethod === 'POST' || requestMethod === 'PUT') {
+    if (postParams) {
+      body = postParams;
+    }
+  }
+  // 构建请求配置
+  const requestOptions = {
+    method: requestMethod,
+    headers: requestHeaders,
+    body: body,
+    redirect: 'follow'
+  };
+  // 创建一个 Promise 用于超时控制
+  const fetchPromise = fetch(url, requestOptions);
+  const timeoutPromise = new Promise((_, reject) => {
+    setTimeout(() => reject(new Error('Request timed out')), timeout);
+  });
+  try {
+    // 发送请求并等待响应
+    const response = await Promise.race([fetchPromise, timeoutPromise]);
+    // 获取响应内容
+    const responseText = await response.text();
+    // 返回结果
+    return responseText;
+  } catch (error) {
+    throw error;
+  }
+}
+
+
+
 function newfetch(url, options) {
     options = options || {};
     return new Promise(async (resolve, reject) => {
@@ -80,8 +135,9 @@ function newfetch(url, options) {
             headers: request.headers,
         })
         //console.log(request.headers);
-        if (request.ok) resolve(response());
-        else reject(response());
+        resolve(response());
+        //if (request.ok) resolve(response());
+        //else reject(response());
     });
 }
 
@@ -164,6 +220,7 @@ async function homeContent() {
           "name": "年份",
           "value": [
             { "n": "全部", "v": "" },
+            { "n": "2025", "v": "2025" },
             { "n": "2024", "v": "2024" },
             { "n": "2023", "v": "2023" },
             { "n": "2022", "v": "2022" },
@@ -238,6 +295,7 @@ async function homeContent() {
           "name": "年份",
           "value": [
             { "n": "全部", "v": "" },
+            { "n": "2025", "v": "2025" },
             { "n": "2024", "v": "2024" },
             { "n": "2023", "v": "2023" },
             { "n": "2022", "v": "2022" },
@@ -308,6 +366,7 @@ async function homeContent() {
           "name": "年份",
           "value": [
             { "n": "全部", "v": "" },
+            { "n": "2025", "v": "2025" },
             { "n": "2024", "v": "2024" },
             { "n": "2023", "v": "2023" },
             { "n": "2022", "v": "2022" },
@@ -366,6 +425,7 @@ async function homeContent() {
           "name": "年份",
           "value": [
             { "n": "全部", "v": "" },
+            { "n": "2025", "v": "2025" },
             { "n": "2024", "v": "2024" },
             { "n": "2023", "v": "2023" },
             { "n": "2022", "v": "2022" },
@@ -461,14 +521,14 @@ if (extendObj) {
   }
 }
 
-
-
+//detailContent("132753");
 //获取影视详情信息
 async function detailContent(ids) {
   const url = `${webSite}/detail/${ids}`;
   try {
     //console.log(url);
     const html = await 访问网页(url);
+    console.log(html);
     // 使用正则表达式提取信息
     const vod_id = ids;
     const vod_name = 文本_取中间(html,'vodName\\\":\\\"','\\\"') || '未知片名';
@@ -488,10 +548,11 @@ async function detailContent(ids) {
     // 初始化 vod_play_from 和 vod_play_url
     let vod_play_from = '播放列表';
     let vod_play_url = [];
-    const items = 文本_取中间_批量(html, '<div class=" listitem">', '</div>');
+    const items = 文本_取中间_批量(html, '\\\"nid\\\":', 'playUrl',true);
     const list = items.map((item) => {
-            const name = 文本_取中间(item, '>', '</a>') || '';
-            const link = 文本_取中间(item,'href="','"') || '';
+            const name = 文本_取中间(item, 'name\\\":\\\"', '\\\"') || '';
+            const nid = 文本_取中间(item,'nid\\\":',',') || '';
+            const link = `/vod/play/${ids}/sid/${nid}`;
             return `${name}\$${link}`;
         });
     vod_play_url =list.join('#');
