@@ -52,6 +52,22 @@
 	},
 
 	{
+		"key": "yigeg",
+		"name": "影视 ┃ 🛍️一个G",
+		"type": 5,
+		"searchable": 1,
+		"filterClass": "",
+		"firstClass": "",
+		"filterPlay": "",
+		"firstPlay": "",
+		"ext": "https://ghproxy.cn/https://raw.githubusercontent.com/Jokervvv9/tBox/refs/heads/main/newjs/测试模板.js",
+		"flagable": 0,
+		"filterPlayFileKeywords": "",
+		"keepPlayFileKeywords": "",
+		"webSite": "https://ygg01.com/vodshow/{cateId}--------{catePg}---.html||https://ygg01.com/vodsearch/-------------.html?wd={wd}||1#电影,2#电视剧,3#综艺,4#动漫,5#短剧"
+	},
+
+	{
 		"key": "cfkj86",
 		"name": "🥇金牌┃直链",
 		"type": 5,
