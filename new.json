@@ -5,7 +5,7 @@
 	
 	{
 		"key": "douban",
-		"name": "👍导航┃0203V1",
+		"name": "👍导航┃0218V1",
 		"type": 5,
 		"searchable": 0,
 		"filterClass": "",
@@ -50,6 +50,21 @@
                 "filterPlayFileKeywords": "",
                 "keepPlayFileKeywords": ""
         },
+	{
+		"key": "ikvod",
+		"name": "📽来看┃影视",
+		"type": 6,
+		"searchable": 1,
+		"filterClass": "",
+		"firstClass": "",
+		"filterPlay": "",
+		"firstPlay": "",
+		"ext": "https://ghproxy.cn/https://raw.githubusercontent.com/Jokervvv9/tPox/refs/heads/main/soup/ikvod_soup.json",
+		"flagable": 0,
+		"filterPlayFileKeywords": "",
+		"keepPlayFileKeywords": "",
+		"selectedPlayer": "0"
+	},
 	{
 		"key": "subaibai",
 		"name": "🌥素白┃直链",
