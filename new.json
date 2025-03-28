@@ -5,7 +5,7 @@
 	
 	{
 		"key": "douban",
-		"name": "👍导航┃0218V1",
+		"name": "👍导航┃0301V1",
 		"type": 5,
 		"searchable": 0,
 		"filterClass": "",
@@ -98,7 +98,7 @@
 
 	{
 		"key": "tiantian",
-		"name": "天天影视┃直链",
+		"name": "🍏天天┃直链",
 		"type": 5,
 		"searchable": 1,
 		"filterClass": "",
@@ -114,7 +114,7 @@
 
 	{
 		"key": "hdmoli",
-		"name": "hdmoli┃嗅探",
+		"name": "🍎hdmoli┃嗅探",
 		"type": 6,
 		"searchable": 1,
 		"filterClass": "",
@@ -188,37 +188,7 @@
 		"keepPlayFileKeywords": "",    "webJS":"KGZ1bmN0aW9uKCl7DQogICAgICAgIHZhciBwYXJlbnRFbGVtZW50ID0gZG9jdW1lbnQuZ2V0RWxlbWVudEJ5SWQoJ3BsYXlsZWZ0Jyk7DQogICAgICAgIHZhciBpZnJhbWUgPSBwYXJlbnRFbGVtZW50LnF1ZXJ5U2VsZWN0b3IoJ2lmcmFtZScpOw0KICAgICAgICB2YXIgaWZyYW1lRG9jdW1lbnQgPSBpZnJhbWUuY29udGVudERvY3VtZW50Ow0KICAgICAgICB2YXIgc3RhcnRCdXR0b24gPSBpZnJhbWVEb2N1bWVudC5xdWVyeVNlbGVjdG9yKCcuc3dhbC1idXR0b24uc3dhbC1idXR0b24tLWNvbmZpcm0nKTsNCiAgICAgICAgc3RhcnRCdXR0b24uY2xpY2soKTsNCiAgICB9KSgpOw=="
 	},
 
-	{
-		"key": "hsck",
-		"name": "🔞┃hsck",
-		"type": 5,
-		"searchable": 1,
-		"filterClass": "",
-		"firstClass": "",
-		"filterPlay": "",
-		"firstPlay": "",
-		"ext": "./newjs/hsck.js",
-		"flagable": 0,
-		"filterPlayFileKeywords": "",
-		"keepPlayFileKeywords": "",
-                "selectedPlayer":"0"
-	},
-
-	{
-		"key": "missav",
-		"name": "🔞┃missav",
-		"type": 5,
-		"searchable": 1,
-		"filterClass": "",
-		"firstClass": "",
-		"filterPlay": "",
-		"firstPlay": "",
-		"ext": "./newjs/missav.js",
-		"flagable": 0,
-		"filterPlayFileKeywords": "",
-		"keepPlayFileKeywords": "",
-                "selectedPlayer":"0"
-	},
+	
 
 	{
 		"key": "lmm",
@@ -328,22 +298,7 @@
 		"selectedPlayer": "2"
 	},
 
-	{
-		"key": "网飞猫",
-		"name": "🐱网飞猫┃嗅探",
-		"type": 6,
-		"searchable": 1,
-		"filterClass": "",
-		"firstClass": "",
-		"filterPlay": "",
-		"firstPlay": "",
-		"ext": "./soup/网飞猫_soup.json",
-		"flagable": 0,
-		"filterPlayFileKeywords": "",
-		"keepPlayFileKeywords": "",
-		"selectedPlayer": "0"
-	},
-
+	
 	{
 		"key": "奈飞中文",
 		"name": "奈飞中文┃嗅探",
@@ -419,7 +374,7 @@
 
 	{
 		"key": "欧乐嗅探",
-		"name": "😁欧乐┃嗅探",
+		"name": "欧乐┃嗅探",
 		"type": 6,
 		"searchable": 1,
 		"filterClass": "",
@@ -495,6 +450,7 @@
 		"selectedPlayer": "0"
 	},
 
+	
 	{
     		"key": "youtube",
     		"name": "youtube┃看世界",
@@ -526,6 +482,38 @@
   		"keepPlayFileKeywords": "",
         	"danmu":"1"
  	},
+
+	{
+		"key": "hsck",
+		"name": "🔞┃hsck",
+		"type": 5,
+		"searchable": 1,
+		"filterClass": "",
+		"firstClass": "",
+		"filterPlay": "",
+		"firstPlay": "",
+		"ext": "./newjs/hsck.js",
+		"flagable": 0,
+		"filterPlayFileKeywords": "",
+		"keepPlayFileKeywords": "",
+                "selectedPlayer":"0"
+	},
+
+	{
+		"key": "missav",
+		"name": "🔞┃missav",
+		"type": 5,
+		"searchable": 1,
+		"filterClass": "",
+		"firstClass": "",
+		"filterPlay": "",
+		"firstPlay": "",
+		"ext": "./newjs/missav.js",
+		"flagable": 0,
+		"filterPlayFileKeywords": "",
+		"keepPlayFileKeywords": "",
+                "selectedPlayer":"0"
+	},
 
 	{
 		"key": "gzys",
@@ -576,7 +564,7 @@
 
 	{
 		"key": "zonghedanmu3",
-		"name": "综合[三接口并发]┃弹幕3",
+		"name": "☄️综合[三接口并发]┃弹幕3",
 		"type": 5,
 		"searchable": 0,
 		"filterClass": "",
