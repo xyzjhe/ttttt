@@ -21,7 +21,7 @@
 
 	{
     		"key": "tgsou",
-    		"name": "🐯tgsou┃搜索",
+    		"name": "🐯tg搜┃搜索",
     		"type": 5,
     		"searchable": 1,
     		"filterClass": "",
@@ -84,7 +84,7 @@
 
 	{
 		"key": "bdbd",
-		"name": "🍇哔滴|直连",
+		"name": "🍇哔滴┃直连",
 		"type": 5,
 		"searchable": 0,
 		"filterClass": "",
