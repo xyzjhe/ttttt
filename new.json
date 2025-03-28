@@ -50,21 +50,7 @@
                 "filterPlayFileKeywords": "",
                 "keepPlayFileKeywords": ""
         },
-	{
-		"key": "ikvod",
-		"name": "📽来看┃影视",
-		"type": 6,
-		"searchable": 1,
-		"filterClass": "",
-		"firstClass": "",
-		"filterPlay": "",
-		"firstPlay": "",
-		"ext": "https://ghproxy.cn/https://raw.githubusercontent.com/Jokervvv9/tPox/refs/heads/main/soup/ikvod_soup.json",
-		"flagable": 0,
-		"filterPlayFileKeywords": "",
-		"keepPlayFileKeywords": "",
-		"selectedPlayer": "0"
-	},
+	
 	{
 		"key": "subaibai",
 		"name": "🌥素白┃直链",
@@ -94,6 +80,22 @@
 	        "filterPlayFileKeywords": "",
 	        "keepPlayFileKeywords": "",
 	        "selectedPlayer": "0"
+	},
+
+	{
+		"key": "bdbd",
+		"name": "🍇哔滴|直连",
+		"type": 5,
+		"searchable": 0,
+		"filterClass": "",
+		"firstClass": "国产剧,番剧",
+		"filterPlay": "",
+		"firstPlay": "",
+		"ext": "./newjs/bd.js",
+		"flagable": 0,
+		"filterPlayFileKeywords": "",
+		"keepPlayFileKeywords": "",
+		"selectedPlayer": "0"
 	},
 
 	{
@@ -127,6 +129,21 @@
 		"keepPlayFileKeywords": ""
 	},
 
+	{
+		"key": "ikvod",
+		"name": "📽来看┃影视",
+		"type": 6,
+		"searchable": 1,
+		"filterClass": "",
+		"firstClass": "",
+		"filterPlay": "",
+		"firstPlay": "",
+		"ext": "./soup/ikvod_soup.json",
+		"flagable": 0,
+		"filterPlayFileKeywords": "",
+		"keepPlayFileKeywords": "",
+		"selectedPlayer": "0"
+	},
 	
 	{
 		"key": "cfkj86",
@@ -436,7 +453,7 @@
 	
 	{
 		"key": "网飞猫",
-		"name": "🐱网飞猫┃嗅探",
+		"name": "网飞猫┃嗅探",
 		"type": 6,
 		"searchable": 1,
 		"filterClass": "",
@@ -799,21 +816,7 @@
 		"selectedPlayer": "0"
 	},
 
-	{
-		"key": "bdbd",
-		"name": "修罗影视|直连",
-		"type": 5,
-		"searchable": 0,
-		"filterClass": "",
-		"firstClass": "国产剧,番剧",
-		"filterPlay": "",
-		"firstPlay": "",
-		"ext": "./newjs/bd.js",
-		"flagable": 0,
-		"filterPlayFileKeywords": "",
-		"keepPlayFileKeywords": "",
-		"selectedPlayer": "0"
-	},
+	
 		
 	{
 		"key": "nanf",
