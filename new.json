@@ -5,7 +5,7 @@
 	
 	{
 		"key": "douban",
-		"name": "👍导航┃0331V1",
+		"name": "👍导航┃0401V1",
 		"type": 5,
 		"searchable": 0,
 		"filterClass": "",
@@ -116,7 +116,7 @@
 
 	{
 		"key": "hdmoli",
-		"name": "🍎hdmoli┃嗅探",
+		"name": "🍎魔力┃嗅探",
 		"type": 6,
 		"searchable": 1,
 		"filterClass": "",
@@ -238,20 +238,7 @@
 		"keepPlayFileKeywords": ""
 	},
 
-	{
-		"key": "czzy",
-		"name": "厂长资源┃嗅探",
-		"type": 3,
-		"searchable": 0,
-		"filterClass": "",
-		"firstClass": "",
-		"filterPlay": "",
-		"firstPlay": "",
-		"ext": "./xbiu/czzy_xbiu.json",
-		"flagable": 0,
-		"filterPlayFileKeywords": "",
-		"keepPlayFileKeywords": ""
-	},
+	
 
 	{
 		"key": "皮皮蛋",
@@ -331,6 +318,20 @@
 		"selectedPlayer": "2"
 	},
 
+	{
+		"key": "czzy",
+		"name": "厂长资源┃嗅探",
+		"type": 3,
+		"searchable": 0,
+		"filterClass": "",
+		"firstClass": "",
+		"filterPlay": "",
+		"firstPlay": "",
+		"ext": "./xbiu/czzy_xbiu.json",
+		"flagable": 0,
+		"filterPlayFileKeywords": "",
+		"keepPlayFileKeywords": ""
+	},
 	
 	{
 		"key": "奈飞中文",
