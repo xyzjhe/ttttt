@@ -162,6 +162,22 @@
 	},
 
 	{
+		"key": "gzys",
+		"name": "🍉瓜子┃直链",
+		"type": 5,
+		"searchable": 1,
+		"filterClass": "",
+		"firstClass": "",
+		"filterPlay": "",
+		"firstPlay": "",
+		"ext": "./newjs/gz_app.js",
+		"flagable": 0,
+		"filterPlayFileKeywords": "",
+		"keepPlayFileKeywords": "",
+		"selectedPlayer": "0"
+	},
+
+	{
 		"key": "duboku",
 		"name": "独播库┃嗅探",
 		"type": 6,
@@ -209,7 +225,7 @@
 
 	{
 		"key": "lmm",
-		"name": "🔥路漫漫┃嗅探",
+		"name": "路漫漫┃嗅探",
 		"type": 6,
 		"searchable": 1,
 		"filterClass": "",
@@ -502,7 +518,7 @@
 
 	{
 		"key": "hsck",
-		"name": "🔞┃hsck",
+		"name": "hsck┃🔞",
 		"type": 5,
 		"searchable": 1,
 		"filterClass": "",
@@ -518,7 +534,7 @@
 
 	{
 		"key": "missav",
-		"name": "🔞┃missav",
+		"name": "missav┃🔞",
 		"type": 5,
 		"searchable": 1,
 		"filterClass": "",
@@ -532,21 +548,7 @@
                 "selectedPlayer":"0"
 	},
 
-	{
-		"key": "gzys",
-		"name": "🍉瓜子app┃直链",
-		"type": 5,
-		"searchable": 1,
-		"filterClass": "",
-		"firstClass": "",
-		"filterPlay": "",
-		"firstPlay": "",
-		"ext": "./newjs/gz_app.js",
-		"flagable": 0,
-		"filterPlayFileKeywords": "",
-		"keepPlayFileKeywords": "",
-		"selectedPlayer": "0"
-	},
+	
 		
         {
                 "key": "zonghedanmu1",
@@ -781,11 +783,9 @@
 		"keepPlayFileKeywords": "",
 		"selectedPlayer": "0"
 	},
-
-
-	{
+        {
 		"key": "oule",
-		"name": "欧乐┃VPN",
+		"name": "🥦欧乐┃VPN",
 		"type": 5,
 		"searchable": 1,
 		"filterClass": "",
@@ -851,7 +851,7 @@
 
 	{
 		"key": "爱听书",
-		"name": "爱听书┃听书",
+		"name": "👂爱听书┃听书",
 		"type": 5,
 		"searchable": 1,
 		"filterClass": "",
@@ -973,22 +973,7 @@
 		"selectedPlayer": "0"
 	},
 	
-	{
-		"key": "cfkj86",
-		"name": "🥇金牌┃直链",
-		"type": 5,
-		"searchable": 1,
-		"filterClass": "",
-		"firstClass": "",
-		"filterPlay": "",
-		"firstPlay": "",
-		"ext": "./newjs/jinpai.js",
-		"flagable": 0,
-		"filterPlayFileKeywords": "",
-		"keepPlayFileKeywords": "",
-                "selectedPlayer":"0"
-	},
-	
+		
 	{
 		"key": "kuyun",
 		"name": "☁️酷云┃直链",
