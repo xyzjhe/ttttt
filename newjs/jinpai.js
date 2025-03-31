@@ -1,5 +1,5 @@
 //当域名更换的话，修改下方网址即可
-const webSite= 'https://www.cfkj86.com';
+const webSite= 'https://m.fjvtw.com/';
 
 async function 访问网页(url, method, postParams, cookie, headers, timeout = 15000, setCookieCallback) {
     // 定义请求方法
